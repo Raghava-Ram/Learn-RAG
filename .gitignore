@@ -1,0 +1,51 @@
+# Create .gitignore file
+echo "# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ChromaDB vector store
+db/
+chroma_db/
+
+# Environment variables
+.env
+
+# HuggingFace cache
+.cache/
+~/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files (too large for GitHub)
+*.bin
+*.safetensors
+*.pth
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Project specific
+docs/*.txt  # Optional: if you don't want to push your documents
+" > .gitignore
