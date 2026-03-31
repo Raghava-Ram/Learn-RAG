@@ -22,6 +22,7 @@ model = ChatOllama(
     temperature=0.7,
 )
 
+
 # Store our conversation as messages
 chat_history = []
 
